@@ -4,6 +4,12 @@ This library is designed to speed up huge model training on unified memory.
 It takes a computation graph built by the user, conducts analysis, implements group execution and prefetch by editing the graph.
 A callback hook is provided to easily apply HMS on a tf.keras model.
 
+## License
+
+Copyright (C) 2021 aetherAI Co., Ltd.
+All rights reserved.
+Licensed under the CC BY-NC-SA 4.0 license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+
 ## Requirements
 
 - Tensorflow v1 (tensorflow-gpu==1.15.3)
