@@ -4,9 +4,11 @@ This library is designed to speed up huge model training on unified memory.
 It takes a computation graph built by the user, conducts analysis, implements group execution and prefetch by editing the graph.
 A callback hook is provided to easily apply HMS on a tf.keras model.
 
-## Publication
+## Publications
 
 Chen, CL., Chen, CC., Yu, WH. *et al.* An annotation-free whole-slide training approach to pathological classification of lung cancer types using deep learning. *Nat Commun* **12,** 1193 (2021). https://doi.org/10.1038/s41467-021-21467-y
+
+Chuang, WY., Chen, CC., Yu, WH. *et al.* Identification of nodal micrometastasis in colorectal cancer using deep learning on annotation-free whole-slide images. *Mod Pathol* (2021). https://doi.org/10.1038/s41379-021-00838-2
 
 ## License
 
