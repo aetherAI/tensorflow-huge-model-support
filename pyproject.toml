@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tensorflow-huge-model-support"
+version = "1.1"
+description = "This library is designed to speed up huge model training on unified memory."
+authors = ["Chi-Chung Chen <chenchc@aetherai.com>"]
+license = "CC BY-NC-SA 4.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+tensorflow-gpu = "1.15.3"
+GPUtil = "^1.4.0"
+networkx = "2.2"
+pycrypto = "^2.6.1"
+psutil = "^5.8.0"
+Cython = "^0.29.24"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
