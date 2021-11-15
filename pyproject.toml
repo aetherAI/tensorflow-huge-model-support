@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tensorflow-huge-model-support"
-version = "1.1"
+version = "1.1.1"
 description = "This library is designed to speed up huge model training on unified memory."
 authors = ["Chi-Chung Chen <chenchc@aetherai.com>"]
 license = "CC BY-NC-SA 4.0"
