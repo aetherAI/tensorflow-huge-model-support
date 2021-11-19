@@ -21,7 +21,7 @@ install_requires = [
 
 setup(
     name='tensorflow-huge-model-support',
-    version='1.1.1',
+    version='1.1.2',
     description='',
     author='Chi-Chung Chen',
     author_email='chenchc@aetherai.com',
